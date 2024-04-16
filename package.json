@@ -22,8 +22,9 @@
   "dependencies": {
     "orange": "^0.1.0",
     "ornage": "^1.0.0",
-    "my_dep": "^1.0.0",
-    "another_dep": "~2.2.0"
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "jshint": "^2.13.6"
   },
   "devDependencies": {
     "chai": "^4.2.0",
