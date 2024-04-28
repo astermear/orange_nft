@@ -1,9 +1,9 @@
 // Получаем элемент заголовка
-const header = document.getElementById('mainheader');
+const header = document.getElementsByClassName('mainheader');
 
 // Получаем текст заголовка
 const text = header.innerText;
-
+console.log(header)
 // Очищаем текст заголовка
 header.innerText = '';
 header.style.opacity = '1';
